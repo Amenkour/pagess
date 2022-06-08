@@ -1,0 +1,17 @@
+﻿<Window x:Class="pagess.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pagess"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen" 
+        Title="MainWindow" Height="450" Width="800" AllowsTransparency="False" Background="Bisque" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <DockPanel>
+            <Button Content="Zurück" Height="20" Width="60" Click="Button_Clickp1" Margin="10,10,10,10" ClickMode="Release" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+            <Button Content="Weiter" Height="20" Width="60" Click="Button_Clickp2" Margin="600,0,0,10" ClickMode="Release" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        </DockPanel>
+
+        <Frame x:Name="Mm" Margin="0,35,0,0"/>
+    </Grid>
+</Window>
